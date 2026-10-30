@@ -1,0 +1,21 @@
+{
+  "name": "claude-task-observer",
+  "owner": {
+    "name": "mkarami313"
+  },
+  "metadata": {
+    "description": "Watch long-running tasks without burning context — run/wait/status for builds, tests, jobs and deploys with stall and repeated-error detection — plus a loop-guard hook that catches agents going in circles.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "task-observer",
+      "description": "Watch long-running tasks without burning context — run/wait/status for builds, tests, jobs and deploys with stall and repeated-error detection — plus a loop-guard hook that catches agents going in circles.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/task-observer"
+      ]
+    }
+  ]
+}

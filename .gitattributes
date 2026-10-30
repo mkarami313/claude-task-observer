@@ -1,0 +1,5 @@
+# Scripts must keep LF endings, or bash/python fail on Windows checkouts (\r errors).
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
